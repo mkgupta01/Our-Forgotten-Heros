@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+.sidebar{
+    position: fixed;
+    top: 44px;
+    width: 22%;
+    height: 100vh;
+    font-family:cursive;
+    background-color: rgba(177, 176, 175, 0.747);
+}
+#index{
+    margin: 8px 8px 8px 36px;
+    list-style-type:decimal;
+}
+span{
+    font-size: 36px;
+    margin: 8px 16px;
+    text-decoration: underline;
+}
+#index>li>a{
+    margin: 4px;
+    color: black;
+}
+#index>li{
+    margin:2px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#main-content-box{
+    position: relative;
+    top:44px;
+    left:300px;
+    width: 75%;
+    height: 100vh;
+    padding:8px 12px;
+    color: whitesmoke;
+}
+#main-heading{
+    font-size: 32px;
+    font-weight: lighter;
+    text-shadow: 2px 2px 2px rgb(2, 2, 2);
+    margin-bottom: 4px;
+}
+hr{
+    box-shadow: 2px 2px 2px grey;
+}
+#intro-img{
+    height: 50vh;
+    width: 70vw;
+    margin: 16px;
+    border: 2px solid rgb(31, 31, 31);
+    border-radius: 12px;
+    box-shadow: 6px 5px black;
+}
+.para{
+    margin: 18px 12px;
+    background-color: rgba(15, 15, 15, 0.719);
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px rgb(78, 78, 78);
+}
+.heading{
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 8px;
+}
+.details{
+    font-size: 16px;
+    padding-left: 12px;
+}
+.sub-heading{
+    margin-top: 18px;
+    margin-left: 18px;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.sub-details{
+    margin-left: 32px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}

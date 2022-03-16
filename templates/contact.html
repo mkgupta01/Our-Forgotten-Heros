@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+
+<body>
+    <!-- NAVBAR SECTION -->
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li id="items"><a href="/index.html">Home</a></li>
+                <li id="items"><a href="/templates/about.html">About Us</a></li>
+                <li id="items"><a href="/templates/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact-form">
+        <h2>Contact Us</h2>
+        <img id="contact-img" src="/static/img/contact.jpg">
+        <form>
+            <label for="name">Name :</label><br>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <label for="email">Email :</label><br>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="message">Message :</label><br>
+            <textarea name="message" id="message" cols="30" rows="8"></textarea>
+            <input type="submit" onclick="alert('Messgae sent Successfully')" value="Submit">
+        </form>
+    </section>
+
+    <!-- creating footer  -->
+    <footer>
+        <p>&copy 2022 Chitkara University Assignment</p>
+    </footer>
+
+</body>
+
+</html>

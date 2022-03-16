@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(20, 20, 20);
+    font-family: cursive;
+}
+a{
+    text-decoration: none;
+}
+/* HEADER SECTION STARTS */
+header{
+    position: fixed;
+    z-index: 1;
+    top:0px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    margin: 0px;
+    background-color: black;
+} 
+.navbar{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 6px 24px;
+    transition: .3s;
+}
+.navbar li a{
+    font-weight: 600;
+    transition: .3s;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.navbar li a:hover{
+    color: rgb(7, 184, 77);
+}
+/* HEADER SECTION ENDS */
+
+/* titte section starts */
+.containner{
+    height: 60vh;
+    background-image: url(/static/img/bg.jpg);
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+}
+#main-title{
+    display: inline;
+    padding: 24px;
+    border-radius: 18px;
+    color: rgb(233, 231, 231);
+    text-shadow: 10px 10px 10px black;
+    text-align: center;
+    font-size: 48px;
+    background-color: rgba(51, 51, 51, 0.521);
+    background-blend-mode:luminosity;
+}
+
+/* styling icons menu  */
+#icon-menu{
+    position: relative;
+    bottom: 48px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    background-color: rgba(253, 253, 253, 0.904);
+    border-radius: 4px;
+    box-shadow: 12px 12px 5px rgb(5, 5, 5);
+    padding:2px;
+    transition: .3s;
+}
+.icons:hover{
+    transform: translateX(-18px);
+}
+.icon-elements{
+    margin: 16px;
+}
+.icon-img{
+    height: 200px;
+    width: 180px;
+    box-shadow:4px 4px 5px rgb(10, 10, 10);
+    border: 2px solid rgba(0, 0, 0, 0.568);
+}
+.icon-text{
+    color:black; 
+    font-size: 18px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* styling footer  */
+footer{
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.829);
+    color:blanchedalmond;
+    text-align: center;
+    width: 100%;
+    padding: 6px 10px 0 10px;
+    margin-top: 0px;
+}
+
+/* contact form styling */
+#contact-form{
+    height:80vh;
+    width:70vw;
+    margin: auto;
+    margin-top: 62px;
+    margin-bottom: 42px;
+    background-image: linear-gradient(rgb(228, 123, 26),black 90%);
+    box-shadow: 8px 8px 10px rgb(0, 0, 0);
+    border-radius: 12px;
+    padding:8px;
+}
+#contact-form>h2{
+    display: block;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    font-size: 36px;
+    text-decoration: underline;
+    margin-bottom: 12px;
+}
+#contact-img{
+    height:28rem;
+    width: 25rem;
+}
+form{
+    position: relative;
+    left: 432px;
+    bottom: 440px;
+    width: fit-content;
+}
+label{
+    font-size: 20px;
+    margin: 8px 0px;
+}
+input,textarea{
+    font-size: 16px;
+    width: 100%;
+    margin: 8px 0px;
+    padding: 2px;
+    border: none;
+    background-color:transparent;
+    border-bottom:2px solid black;
+}
+textarea{
+    border: 2px solid black;
+}
+input[type=submit]{
+    width: 30%;
+    color: black;
+    border: 2px solid rgb(7, 7, 7);
+    background-color: chocolate;
+    position: relative;
+    left: 36%;
+    box-shadow: 1px 1px 2px grey;
+    transition: .8s;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color: darkgray;
+    padding: 2px;
+    transition: .8s;
+    border-radius: 18px;
+}
+
+
+/* about section styling */
+.about-box{
+    background-color: rgb(27, 27, 27) ;
+    height: 40vh;
+    color: rgb(248, 248, 248);
+    width: 80%;
+    margin: auto;
+    margin-top: 18px;
+    word-break:break-all;
+    box-shadow: 4px 4px 5px black;
+    border-radius: 8px;
+}
+#heading{
+    color: white;
+    margin-top: 48px;
+    font-size: 48px;
+    text-decoration: underline;
+    position: relative;
+    left: 160px;
+    width: 50%;
+}
+.about-box>img{
+    display: inline;
+    height: 220px;
+    width: 180px;
+    margin: 12px;
+    box-shadow: 4px 4px 10px black;
+}
+.name{
+    display: inline;
+    position: relative;
+    bottom: 230px;
+    left: 220px;
+    text-decoration: underline;
+}
+.bio{
+    position: relative;
+    bottom: 220px;
+    left: 220px;
+    width: 70%;
+    word-break: break-all;
+}
