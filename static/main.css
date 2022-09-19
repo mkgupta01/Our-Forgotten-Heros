@@ -218,3 +218,31 @@ input[type=submit]:hover{
     width: 70%;
     word-break: break-all;
 }
+
+/* add media query for responsiveness on tabs*/
+@media(max-width: 1090px) {
+    #icon-menu {
+        width: 95%;
+    }
+}
+
+/* add media query for mobile responsiveness */
+@media(max-width: 760px) {
+    #icon-menu {
+        flex-direction: column;
+        gap: 1rem;
+        width: 60%;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    .navbar li {
+        display: block;
+    }
+
+    .icon-img {
+        width: 100%;
+    }
+}
